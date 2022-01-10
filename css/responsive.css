@@ -1,0 +1,48 @@
+@media only screen and (max-width: 1140px) {
+  .nav-list {
+    flex-direction: column;
+  }
+  /* .text-big{
+     margin-top: 10px;
+    } */
+  .navbar {
+    flex-direction: column;
+    transition: all 0.3sec ease-out;
+    height: 450px;
+  }
+  .rightNav {
+    text-align: center;
+  }
+  #search {
+    width: 100%;
+  }
+  .box-main {
+    flex-direction: column-reverse;
+    width: 100%;
+  }
+  .burger {
+    display: block;
+  }
+  .h-nav-resp {
+    height: 60px;
+  }
+  .v-class-resp {
+    opacity: 0;
+  }
+  .section {
+    flex-direction: column-reverse;
+  }
+  .text-big {
+    text-align: center;
+  }
+  .text-small {
+    text-align: center;
+  }
+  .button {
+    text-align: center;
+  }
+  .paras {
+    padding: 0px;
+    text-align: right;
+  }
+}
